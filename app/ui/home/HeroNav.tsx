@@ -4,6 +4,7 @@ import { useHabitStore } from "@/useHabitStore";
 import clsx from "clsx";
 import Menu from "@/app/assets/menu.svg";
 import Close from "@/app/assets/close.svg";
+import ThemeToggle from "@/app/ui/ThemeToggle";
 
 export default function HeroNav() {
 
@@ -15,7 +16,7 @@ export default function HeroNav() {
                 onClick={() => toggleMobileNav()}
                 className="absolute left-2 lg:hidden"
             >
-                <Menu className="w-12 h-auto stroke-white" />
+                <Menu className="w-12 h-auto stroke-text" />
             </div>
             <div className="font-bold text-2xl">
                 Habitonic
@@ -34,7 +35,7 @@ export default function HeroNav() {
                         onClick={() => toggleMobileNav()}
                         className="absolute left-4"
                     >
-                        <Close className="w-6 h-auto stroke-white" />
+                        <Close className="w-6 h-auto stroke-text" />
                     </div>
                     <div className="font-bold text-2xl">
                         Habitonic
@@ -42,7 +43,7 @@ export default function HeroNav() {
                 </div>
                 <div>Create Account</div>
                 <div>Log In</div>
-                <div>Theme</div>
+                <ThemeToggle />
             </div>
         </nav>
     );
