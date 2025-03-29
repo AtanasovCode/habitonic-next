@@ -3,7 +3,7 @@ import { create } from 'zustand'
 interface HabitState {  
   // Hero Nav
   showMobileNav: boolean;
-  toggleMobileNav: (value: boolean) => void;
+  toggleMobileNav: () => void;
 }
 
 export const useHabitStore = create<HabitState>()((set) => ({
