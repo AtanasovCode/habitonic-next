@@ -4,16 +4,16 @@
 
 :root {
     --primary-light: #aacbe5;
-    --secondary-light: #ffed4a;
+    --secondary-light: #c7f0f2;
     --accent-light: #e2e8f0;
     --text-light: #1a202c;
     --background-light: #ffffff;
 
-    --primary-dark: #2c5282;
-    --secondary-dark: #a1882c;
+    --primary-dark: #1e3f68;
+    --secondary-dark: #0f2b4c;
     --accent-dark: #3d4852;
     --text-dark: #fcf7f7;
-    --background-dark: #1a202c;
+    --background-dark: #1e2938;
 
     --primary: var(--primary-light);
     --secondary: var(--secondary-light);

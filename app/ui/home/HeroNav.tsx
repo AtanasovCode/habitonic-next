@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useHabitStore } from "@/useHabitStore";
 import clsx from "clsx";
 import Menu from "@/app/assets/menu.svg";
@@ -41,8 +42,8 @@ export default function HeroNav() {
                         Habitonic
                     </div>
                 </div>
-                <div>Create Account</div>
-                <div>Log In</div>
+                <Link href="/sign-up">Create Account</Link>
+                <Link href="/sign-in">Log In</Link>
                 <ThemeToggle />
             </div>
         </nav>
