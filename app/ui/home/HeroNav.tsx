@@ -2,6 +2,7 @@
 
 import { useHabitStore } from "@/useHabitStore";
 import clsx from "clsx";
+import Menu from "@/app/assets/menu.svg";
 
 export default function HeroNav() {
 
@@ -9,6 +10,9 @@ export default function HeroNav() {
 
     return (
         <nav className="w-full flex items-center justify-center lg:justify-between px-6 py-4 bg-primary text-text">
+            <div className="absolute left-6 lg:hidden">
+                <Menu className="w-8 h-auto" />
+            </div>
             <div className="font-bold text-2xl">
                 Habitonic
             </div>
