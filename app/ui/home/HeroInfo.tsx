@@ -1,3 +1,5 @@
+import GetStartedButton from "@/app/ui/home/GetStartedButton";
+
 export default function HeroInfo() {
     return (
         <div className="w-full flex flex-col items-center justify-center gap-4">
@@ -10,6 +12,7 @@ export default function HeroInfo() {
                 effectiveness. Create tasks or habits that matter to
                 you, and track your progress by marking them complete each day.
             </div>
+            <GetStartedButton />
         </div>
     );
 }
