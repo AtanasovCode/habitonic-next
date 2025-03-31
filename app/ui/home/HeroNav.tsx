@@ -12,7 +12,7 @@ export default function HeroNav() {
     const { showMobileNav, toggleMobileNav } = useHabitStore();
 
     return (
-        <nav className="w-full flex items-center justify-center lg:justify-between px-6 py-4 bg-primary text-text">
+        <nav className="w-full flex items-center justify-center lg:justify-between py-4 bg-primary text-text">
             <div
                 onClick={() => toggleMobileNav()}
                 className="absolute left-2 lg:hidden"
