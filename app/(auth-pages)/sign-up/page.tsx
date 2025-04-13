@@ -42,7 +42,9 @@ export default async function Signup(props: {
           <SubmitButton formAction={signUpAction} pendingText="Signing up...">
             Sign up
           </SubmitButton>
-          <FormMessage message={searchParams} />
+          <div className="my-2">
+            <FormMessage message={searchParams} />
+          </div>
         </div>
         <p className="text-sm text text-text">
           Already have an account?{" "}
